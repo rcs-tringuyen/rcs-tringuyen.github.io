@@ -1,5 +1,5 @@
 ---
-title: CTF Write Ups
+title: InfoSec
 icon: fas fa-flag-checkered
 order: 2
 ---
