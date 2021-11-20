@@ -89,7 +89,7 @@ Ahdiemoo1j
 - This one is actually easy.
 - If you `ltrace ./level3` you will see 2 `strcmp()` with one being a decoy.
 
-```
+```shell
 leviathan3@leviathan:~$ ltrace ./level3
 __libc_start_main(0x8048618, 1, 0xffffd784, 0x80486d0 <unfinished ...>
 strcmp("h0no33", "kakaka")                                                             = -1
@@ -112,7 +112,7 @@ puts("bzzzzzzzzap. WRONG"bzzzzzzzzap. WRONG
 - `cat` this one seems to be binary file
 - Easy, convert it to ascii
 
-```
+```shell
 leviathan4@leviathan:~/.trash$ ./bin
 01010100 01101001 01110100 01101000 00110100 01100011 01101111 01101011 01100101 01101001 00001010 
 leviathan4@leviathan:~/.trash$ ./bin | perl -lape '$_=pack"(B8)*",@F'
@@ -130,7 +130,7 @@ Tith4cokei
 - I tried to create a bash executable that will print out `leviathan6`'s password but no luck.
 - Correct guess, create a symlink to `/etc/leviathan_pass/leviathan6`!
 
-```
+```shell
 leviathan5@leviathan:~$ ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
 leviathan5@leviathan:~$ ./leviathan5
 UgaoFee4li
