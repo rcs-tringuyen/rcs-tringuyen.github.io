@@ -10,7 +10,7 @@ _Link_: https://overthewire.org/wargames/leviathan/
 
 # Level 0->1
 
-```Shell
+```shell
 $ ssh leviathan0@leviathan.labs.overthewire.org -p 2223
 ```
 - `ls` shows nothing.
@@ -19,7 +19,7 @@ $ ssh leviathan0@leviathan.labs.overthewire.org -p 2223
 - `.backup` is suspicious.
 - Go into this folder there is a `bookmark.html` file.
 
-```Shell
+```shell
 $ cat bookmark.html | grep leviathan1
 <DT><A HREF="http://leviathan.labs.overthewire.org/passwordus.html | This will be fixed later, the password for leviathan1 is rioGegei8m" ADD_DATE="1155384634" LAST_CHARSET="ISO-8859-1" ID="rdf:#$2wIU71">password to leviathan1</A>
 ```
@@ -31,7 +31,7 @@ $ cat bookmark.html | grep leviathan1
 - You need to enter a password.
 - Things I tried at first but no result.
 
-```Shell
+```shell
 $ file check
 $ strings check
 ```
@@ -41,7 +41,7 @@ $ strings check
 - We know that the program is comparing the user input with a hardcoded string via `strcmp()` function.
 - Lastly I used
 
-```Shell
+```shell
 $ ltrace ./check
 ```
 - We got our password is `sex`
@@ -58,7 +58,7 @@ $ ltrace ./check
 - Another look at the decompiled code, the program seems to read all of our input WHILE `cat` can only the FIRST parameter.
 - So if our input is "A B.txt", it will only `cat A`
 
-```C
+```c
 iVar2 = access((char *)param_2[1],4);
 if (iVar2 == 0) {
     snprintf(local_210,0x1ff,"/bin/cat %s",(char *)param_2[1]);
@@ -73,7 +73,7 @@ if (iVar2 == 0) {
 
 - Knowing that I did the following:
 
-```Shell
+```shell
 $ cd /tmp/tlnguyen
 $ ln -s /etc/leviathan_pass/leviathan3 leviathan3
 $ touch "leviathan3 file.txt"
@@ -143,7 +143,7 @@ UgaoFee4li
 - `leviathan6` takes in your 4 digit code.
 - Pass this bad boy to Ghidra, in the decompile code, you will see this excerpt:
 
-```C
+```c
 {
   int iVar1;
   __uid_t __euid;
