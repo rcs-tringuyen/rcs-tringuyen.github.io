@@ -1,7 +1,7 @@
 ---
 title: "[OverTheWire] [Leviathan] Report"
 author: Tri Nguyen
-date: 2021-11-20 10:52:00 -0700
+date: 2021-11-20 14:20:00 -0700
 categories: [CTF, Write Up]
 tags: [ctf, write-up, overthewire, leviathan]
 ---
