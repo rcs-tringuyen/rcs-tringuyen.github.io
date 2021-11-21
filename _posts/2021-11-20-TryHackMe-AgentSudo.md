@@ -1,7 +1,7 @@
 ---
 title: "[TryHackMe] AgentSudo"
 author: Tri Nguyen
-date: 2021-11-20 14:20:00 -0700
+date: 2021-11-20 17:00:00 -0700
 categories: [CTF, Write Up]
 tags: [ctf, write-up, tryhackme, agent-sudo, thm]
 ---
