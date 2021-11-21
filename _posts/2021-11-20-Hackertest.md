@@ -1,7 +1,7 @@
 ---
 title: "[hackertest.net] Write Up"
 author: Tri Nguyen
-date: 2021-11-20 18:20:00 -0700
+date: 2021-11-20 23:00:00 -0700
 categories: [CTF, Write Up, Wargame]
 tags: [ctf, write-up, hackertest]
 ---
