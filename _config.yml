@@ -15,9 +15,9 @@ timezone: America/Edmonton
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Derpy                          # the main title
+title: Tri Nguyen                          # the main title
 
-tagline: A personal workspace   # it will display as the sub-title
+tagline: I sometimes post things   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
