@@ -17,7 +17,7 @@ timezone: America/Edmonton
 # --------------------------
 title: Tri Nguyen                          # the main title
 
-tagline: I sometimes post things   # it will display as the sub-title
+tagline: I sometimes post things, I promise. In the meantime, check out my current WIP repo: https://github.com/rcs-tringuyen/hack-the-box   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
