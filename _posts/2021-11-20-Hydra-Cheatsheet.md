@@ -4,7 +4,6 @@ author: Tri Nguyen
 date: 2021-11-20 16:38:00 -0700
 categories: [Tool, Guide, Cheatsheet]
 tags: [tool, guide, cheatsheet, hydra]
-pin: true
 ---
 
 | Command | Description |
