@@ -4,7 +4,6 @@ author: Tri Nguyen
 date: 2022-01-18 19:38:00 -0700
 categories: [Annoucement]
 tags: [Annoucement]
-pin: true
 ---
 
 - I promise I will post things. I am grinding through CTFs and having a full-time 5th year CS student workload :( 
